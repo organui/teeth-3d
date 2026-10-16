@@ -1,0 +1,594 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="人体、3D、3次元、解剖学、器官、臓器" />
+<meta name="description" content="BodyParts3D(ボディパーツ3D)は人体各部位の位置や形状を3次元モデルで記述したデータベースです。Anatomography(アナトモグラフィー)を使って、BodyParts3Dから解剖学用語を選択して自由に人体のモデル図を作成できます。" />
+<meta name="author" content="ライフサイエンス統合データベースセンター(Database Center for Life Science)" />
+<TITLE>BodyParts3D Information</TITLE>
+<LINK rel="stylesheet" type="text/css" href="./css/all.css">
+</HEAD>
+<BODY dir="ltr" class="static_page ltr lang_jp show_leftnav chrome1 chrome winvista win modules_widescreen new-ui ">
+<DIV class="wrapper" id="baseDiv">
+
+<TABLE class="layout" border="0"><TBODY><TR>
+
+<TD class="left_column"></TD>
+
+<TD class="content new-ui">
+
+
+<DIV class="inner_content">
+
+<!--
+<H2 class="gsg">BodyParts3D Information</H2>
+<BR>
+-->
+
+<DIV class="gsg">
+
+<UL class="gsg-tabs">
+
+<LI class="active">
+<A href="./index.html">
+BodyParts3Dへようこそ
+</A>
+</LI>
+
+<LI>
+<A href="./userGuide/index.html">
+ユーザガイド
+</A>
+</LI>
+
+<LI>
+<A href="./webapi/index.html">
+Anatomography Web API
+</A>
+</LI>
+
+<LI>
+<A href="./download/index.html">
+ダウンロード
+</A>
+</LI>
+
+<LI>
+<A href="./license/index.html">
+ライセンス
+</A>
+</LI>
+
+<li>
+ <a href="twitter_bp3d.html">
+  Tweet (#bp3d)
+ </a>
+</li>
+
+<li>
+ <a href="twitter_anagra.html">
+  Tweet (#anagra)
+ </a>
+</li>
+
+</UL>
+
+
+
+<DIV class="gsg-body">
+<DIV class="gsg-inner-body">
+<DIV class="gsg-inner-answer">
+
+		<!-- start content -->
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Information"><span class="tocnumber">1</span> <span class="toctext">Information</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#For_repeaters"><span class="tocnumber">2</span> <span class="toctext">For repeaters</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Notice"><span class="tocnumber">2.1</span> <span class="toctext">Notice</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#NAMING_OF_DATA_VERSIONS"><span class="tocnumber">2.2</span> <span class="toctext">NAMING OF DATA VERSIONS</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Whats_new"><span class="tocnumber">2.3</span> <span class="toctext">Whats new</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#For_new_visitors"><span class="tocnumber">3</span> <span class="toctext">For new visitors</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#What_is_this_site_about.3F_.28Map_editor.29"><span class="tocnumber">3.1</span> <span class="toctext">What is this site about? (Map editor)</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Web_API_behind"><span class="tocnumber">3.2</span> <span class="toctext">Web API behind</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Data_download"><span class="tocnumber">3.3</span> <span class="toctext">Data download</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#License"><span class="tocnumber">3.4</span> <span class="toctext">License</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Introducing_team_and_Project_.28Who_are_we.29"><span class="tocnumber">3.5</span> <span class="toctext">Introducing team and Project (Who are we)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#For_those_who_care_.28How_dose_this_work.29"><span class="tocnumber">4</span> <span class="toctext">For those who care (How dose this work)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#About_Anatomography_.28mechanism_of_authoring_site.29"><span class="tocnumber">4.1</span> <span class="toctext">About Anatomography (mechanism of authoring site)</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#About_BodyParts3D_data"><span class="tocnumber">4.2</span> <span class="toctext">About BodyParts3D data</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Data_types"><span class="tocnumber">4.3</span> <span class="toctext">Data types</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Outside_Resources"><span class="tocnumber">4.4</span> <span class="toctext">Outside Resources</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Terminology.2C_references.2C_random_QA.2C_Tips"><span class="tocnumber">4.5</span> <span class="toctext">Terminology, references, random QA, Tips</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#More_infromation_sources"><span class="tocnumber">4.6</span> <span class="toctext">More infromation sources</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-31"><a href="#Dissemination_status"><span class="tocnumber">5</span> <span class="toctext">Dissemination status</span></a>
+<ul>
+<li class="toclevel-2 tocsection-32"><a href="#Systematic_use_of_API_from_programs.28_General.2C_Molecular_and_Clinical.29"><span class="tocnumber">5.1</span> <span class="toctext">Systematic use of API from programs( General, Molecular and Clinical)</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="#3D_data_use_.28Physiome_research.2C_Diagnostic.2C_Clinical_devices.2C_Education.29"><span class="tocnumber">5.2</span> <span class="toctext">3D data use (Physiome research, Diagnostic, Clinical devices, Education)</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="#Downloads_and_Mirrors_for_CAD_and_3D_printing_community"><span class="tocnumber">5.3</span> <span class="toctext">Downloads and Mirrors for CAD and 3D printing community</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="#Image_use"><span class="tocnumber">5.4</span> <span class="toctext">Image use</span></a></li>
+<li class="toclevel-2 tocsection-36"><a href="#Scholarly_journals"><span class="tocnumber">5.5</span> <span class="toctext">Scholarly journals</span></a></li>
+<li class="toclevel-2 tocsection-37"><a href="#MEDIA"><span class="tocnumber">5.6</span> <span class="toctext">MEDIA</span></a></li>
+<li class="toclevel-2 tocsection-38"><a href="#3rd_party_delivations"><span class="tocnumber">5.7</span> <span class="toctext">3rd party delivations</span></a></li>
+<li class="toclevel-2 tocsection-39"><a href="#.E3.82.B7.E3.82.B9.E3.83.86.E3.83.A0.E8.A7.A3.E8.AA.AC"><span class="tocnumber">5.8</span> <span class="toctext">システム解説</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Information">Information </span></h1>
+<ul><li>Welcome to <b>BodyParts3D/Anatomography</b>. 
+</li></ul>
+<ul><li><b>BodyParts3D</b> is an anatomical dictionary where terms are defined by 3D morphology of referents. 
+</li><li><b>BodyParts3D</b> serves as a kit to build custom 3D manikins.
+</li><li> We plan to define all anatomical concepts listed in <b>Terminologia Anatomica</b>, started from those with <b>volumes</b>. &lt;link to stat&gt;
+</li><li><b>Anatomography</b> is a web application that enables users to build and publish own custom manikins.  
+</li></ul>
+<pre><b><a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/Map_examples_for_reuse" title="Map examples for reuse">Map examples for reuse</a></b>
+</pre>
+<h1> <span class="mw-headline" id="For_repeaters">For repeaters </span></h1>
+<h2> <span class="mw-headline" id="Notice">Notice</span></h2>
+<p>IMPORTANT MESSAGE TO USERS
+</p>
+<ul><li> There are still many concepts not represented in the data.  
+</li><li> There could be many ERRORS to be used as ANATOMICAL EDUCATION.
+<ul><li>Some parts were made from scratch by artists or distorted to fit into the environment.
+</li><li>Segmentation into finer pieces may cause confusion in assignment of concepts.
+</li></ul>
+</li><li> Authors may publish your models at your own risk of inclusion of such errors.
+</li><li> For notion and improvement,  please feed back and share the PROBLEMS YOU FIND in the data.
+</li></ul>
+<h2> <span class="mw-headline" id="NAMING_OF_DATA_VERSIONS">NAMING OF DATA VERSIONS</span></h2>
+<h3> <span class="mw-headline" id="OBJ_files">OBJ files</span></h3>
+<ul><li> A set of obj files is identified by "ORGAN -NUMBER" like "brain 5.0", "heart 5.0"
+</li><li> when obj files were added or replaced, increment is made by 0.1 like brain 5.1.
+</li><li> The one’s place (2,3,4,5) represent whether they share the coordinate or not.
+</li><li> For example, there are differences in body-coordinates between skull of 4.3 and brain 5.0.
+</li><li> You can combine them at your own risk because some differences are small enough to be neglected.
+</li></ul>
+<h3> <span class="mw-headline" id="CONCEPT_RELATIONS">CONCEPT RELATIONS</span></h3>
+<ul><li> we depend solely on FMA as outside sources for relating concepts. started with 3.0 and now 3.2.1 
+</li><li> FMA 3.2.1 OWL file  <a rel="nofollow" class="external autonumber" href="http://sig.biostr.washington.edu/share/downloads/fma/FMA_Release/alt/v3.2.1/owl_file/fma_3.2.1_owl_file.zip">[1]</a>
+</li><li> “i” at the end of data version denotes the part_of tree used for aggregative representation of larger concepts are modified by adding “inferred relations" to the original FMA.  
+</li><li> This change substantially increased the number of concepts represented by 3D images.  
+</li><li> According to the extent of change in the trees, the naming for the tree may be altered in the future.
+</li></ul>
+<h3> <span class="mw-headline" id="CAUTION_For_map_URL_users:">CAUTION  For map URL users:</span></h3>
+<p>Improving obj files and part_of tree is performed constantly which improves the coverage and qualities of image representation of concepts specified in the map URL.
+We recommend users to configure your anatomography "without denoting data version", because they will be interpreted and rendered by the latest combinations of obj files.
+</p>
+<h2> <span class="mw-headline" id="Whats_new">Whats new</span></h2>
+<ul><li> ontology aggregating obj files into larger segments was updated from fma3.0 to 3.2.1. (Jan, 2016)
+</li><li> To fma3.2.1, whole/part relations among ipsilateral copies of bilateral entities were supplemented by 6078 inference (amounts 4498 parallel (R to R)+1580 conversing (R to uni, L to uni) relations) (Jan,2016) <a rel="nofollow" class="external autonumber" href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/Processing_fma">[2]</a>
+</li><li> The new concept relations were applied retrospectively and all concept icons were regenerated accordingly (4.3i).
+</li><li> The number of concepts are 3899 (4.3i) 
+</li><li> <b>Downloading custom 3D map in obj files</b> is supported (Dec, 2015)
+</li><li> New data release: Now (April 15, 2014), peripheral nerves and cranial vessels are under inspection and concept mapping. They will be released in a month as version 5.0.
+</li><li> Old news and Notices <a rel="nofollow" class="external autonumber" href="http://lifesciencedb.jp/bp3d/info_en/index.html#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fh3%5B4%5D(0)(3)(Wha)%26%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Ful%5B1%5D%2Ful%5B2%5D%2Fli%5B2%5D(72)(3)(%E3%81%A7%E3%81%99%E3%80%82)">[3]</a>
+</li></ul>
+<pre>   2012/06/21: BodyParts3D rel 4.0 downloadable as a whole from LSDB archive.
+   2013/05/16: BodyParts3D rel 4.0 from Editor site. major update for map editor site
+   2011/06/20: BodyParts3D 3.0 published from editor site release note to rel. 3.0
+   2010/08/16: data download service at LSDB archive: all Rel.2.0 obj files
+   2010/07/21: BodyParts3D release 2.0 modeling note
+   2010/04/28: BodyParts3D release 2.0 with new editor site。release note to rel. 2.0(概要）
+</pre>
+<h1> <span class="mw-headline" id="For_new_visitors">For new visitors </span></h1>
+<h2> <span class="mw-headline" id="What_is_this_site_about.3F_.28Map_editor.29">What is this site about? (Map editor)</span></h2>
+<ul><li>What you can do with BodyParts3D/Anatomography <a rel="nofollow" class="external autonumber" href="http://lifesciencedb.jp/bp3d/info_en/userGuide/application/index.html#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fh3%5B1%5D(0)(3)(Wha)%26%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fh3%5B1%5D(46)(3)(phy)">[4]</a>
+</li><li>How to use&#160;: tutorial ftg on youtube
+</li></ul>
+　<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/CJLH1PqH_hg&amp;enablejsapi=1&amp;playerapiid=CJLH1PqH_hg" width="425" height="355" id="YT_CJLH1PqH_hg"><param name="movie" value="http://www.youtube.com/v/CJLH1PqH_hg&amp;enablejsapi=1&amp;playerapiid=CJLH1PqH_hg"/><param name="wmode" value="transparent"/><param name="allowScriptAccess" value="always"/></object><br />
+
+<ul><li><ul><li> Bodyparts3D map editor site UI details<a rel="nofollow" class="external autonumber" href="http://lifesciencedb.jp/bp3d/info_en/userGuide/uiNameFunction/index.html#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fh2%5B1%5D(0)(3)(UI%E5%90%84)%26%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fh2%5B1%5D(10)(3)(%E3%81%A8%E6%A9%9F%E8%83%BD)">[5]</a>
+</li><li>Step by step, how to use<a rel="nofollow" class="external autonumber" href="http://lifesciencedb.jp/bp3d/info_en/userGuide/gettingStarted/index.html#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fh2%5B1%5D(0)(3)(Get)%26%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fh2%5B1%5D(15)(3)(ted)">[6]</a>
+</li></ul>
+</li></ul>
+
+<h2> <span class="mw-headline" id="Web_API_behind">Web API behind </span></h2>
+<ul><li><b><a href="http://lifesciencedb.jp/bp3d/info_en/webapi/apidoc.html" title="Map API specification">Map API specification</a></b>
+</li><li> <b><a href="http://lifesciencedb.jp/bp3d/info_en/webapi/sampleCodeForAPIUse.html" title="Sample Codes for web API use">Sample Codes for web API use</a> </b> for casual developers
+</li></ul>
+<h2> <span class="mw-headline" id="Data_download">Data download</span></h2>
+<ul><li>Sets of data in OBJ formats (ver 2.0,3.0, 4.0) is downloadable at. <a rel="nofollow" class="external free" href="http://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html">http://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html</a>
+</li><li>Release Note (Release 4.0, 2013/5) <a rel="nofollow" class="external autonumber" href="http://lifesciencedb.jp/bp3d/info_en/userGuide/releaseNotes/release-4.0.html#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fh2%5B1%5D(0)(3)(Bod)%26%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fh2%5B1%5D(46)(3)(%2F5))">[7]</a>
+</li><li>Link to NBDC
+</li><li><a rel="nofollow" class="external free" href="http://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html">http://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html</a>
+</li></ul>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/File:Matlab-skeleton1.png" class="image"><img alt="" src="http://rgm22.nig.ac.jp/mediawiki-ogareport/images/thumb/0/05/Matlab-skeleton1.png/180px-Matlab-skeleton1.png" width="180" height="327" class="thumbimage" /></a>  <div class="thumbcaption"><div class="magnify"><a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/File:Matlab-skeleton1.png" class="internal" title="Enlarge"><img src="http://rgm22.nig.ac.jp/mediawiki-ogareport/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>image with coordinates by Will Robertson (<a rel="nofollow" class="external free" href="http://wspr.wordpress.com/">http://wspr.wordpress.com/</a>)</div></div></div>
+<h2> <span class="mw-headline" id="License">License</span></h2>
+<ul><li>Users can copy modify and disseminate both contour data and rendered image under the license CC-BY SA 2.1JP 
+</li></ul>
+<p>sample html source here ..
+</p><p><a rel="nofollow" class="external free" href="http://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html">http://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html</a>
+</p>
+<h2> <span class="mw-headline" id="Introducing_team_and_Project_.28Who_are_we.29">Introducing team and Project (Who are we)</span></h2>
+<ul><li>Personel:  
+</li></ul>
+<p>&lt;BodyParts3D&gt;
+</p>
+<ul><li><ul><li>Parts data generation&#160;: Kaori Fujieda 
+</li><li>Parts data generation&#160;:Shio Imai 
+</li><li>Parts concept mapping (environment):Nobutaka Mitsuhashi, Isamu Muto 
+</li><li>Parts concept mapping (operation): Kousaku Okubo, M.D.
+</li><li>DICOM processing: Nobutaka Mitsuhashi, Kaori Fujieda
+</li><li>Anatomy information environment: 
+</li><li>Rationale and Project Design:Kousaku Okubo
+</li></ul>
+</li></ul>
+<p>&lt;Anatomography&gt;
+</p>
+<ul><li><ul><li>Rationale and Project Design:Kousaku Okubo
+</li><li>Implementation design:Takuro Tamura,Nobutaka Mitsuhashi, Isamu Muto
+</li><li>Implementation: Nobutaka Mitsuhashi, Bits c.c.
+</li><li>System maintainance: DBCLS, NBDC
+</li></ul>
+</li><li>Funding Source: MEXT, JST
+</li><li>Institutional background: DBCLS, 
+</li><li>Out sourcing:
+</li></ul>
+<h1> <span class="mw-headline" id="For_those_who_care_.28How_dose_this_work.29">For those who care (How dose this work)</span></h1>
+<h2> <span class="mw-headline" id="About_Anatomography_.28mechanism_of_authoring_site.29">About Anatomography (mechanism of authoring site) </span></h2>
+<ul><li>Whole Diagram
+</li></ul>
+<p><a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/File:BPAT1.PNG" class="image"><img alt="BPAT1.PNG" src="http://rgm22.nig.ac.jp/mediawiki-ogareport/images/thumb/2/27/BPAT1.PNG/300px-BPAT1.PNG" width="300" height="212" /></a>
+</p>
+<ul><li>For those who cares very much (designed and depicted by Isamu Muto, Bits c.c.)
+</li></ul>
+<p><a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/File:SYSTEM.PNG" class="image"><img alt="SYSTEM.PNG" src="http://rgm22.nig.ac.jp/mediawiki-ogareport/images/thumb/f/f7/SYSTEM.PNG/300px-SYSTEM.PNG" width="300" height="225" /></a>
+</p>
+<ul><li>Data management:Representation and contour file, Versions, Search, Menu 
+</li><li>About API mechanism
+</li></ul>
+<h2> <span class="mw-headline" id="About_BodyParts3D_data">About BodyParts3D data</span></h2>
+<h3> <span class="mw-headline" id="Processes_for_modelling">Processes for modelling</span></h3>
+<ul><li>How do we made contour data
+<ul><li>Modelling note
+</li><li>Contour concept mapping HOW DO I MAP OBJ DATA TO FMA CONCEPT <a rel="nofollow" class="external autonumber" href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/HOW_DO_MAP_DATA_TO_FMA#hyperanchor1.3%3A%2F%2Fh1%5B%40id%3D%26quot%3BfirstHeading%26quot%3B%5D%2Fspan%5B1%5D(0)(3)(HOW)%26%2F%2Fh1%5B%40id%3D%26quot%3BfirstHeading%26quot%3B%5D%2Fspan%5B1%5D(36)(3)(EPT)">[8]</a>
+</li><li>Primary Mapping results {one object(FJ) to one FMA} <a rel="nofollow" class="external autonumber" href="http://lifesciencedb.jp:32888/bp3d-38321/BackStageEditor/get-info.cgi?model=bp3d&amp;version=4.2&amp;ag_data=obj%2Fbp3d%2F4.2&amp;tree=isa&amp;md_id=1&amp;mv_id=5&amp;mr_id=1&amp;ci_id=1&amp;cb_id=4&amp;bul_id=3&amp;cmd=upload-all-list&amp;title=ALL%20Upload%20Parts%20List">[9]</a>
+</li><li>Mapping result expanded by FMA relations{one FMA to component Obj files(FJ)}
+<ul><li>IS-A&#160;: <a rel="nofollow" class="external autonumber" href="ftp://ftp.biosciencedbc.jp/archive/bodyparts3d/20130619/isa_element_parts.txt">[10]</a>
+</li><li>Part of:<a rel="nofollow" class="external autonumber" href="ftp://ftp.biosciencedbc.jp/archive/bodyparts3d/20130619/partof_element_parts.txt">[11]</a>
+</li></ul>
+</li><li>Data types (Compound and elementary)
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="Data_types">Data types</span></h2>
+<ol><li>Artists make 3D contour of body parts from scratch or modification of clinical 3D images, scanned plastic models,  with reference to anatomical textbooks, atlases and other image sources.  
+</li><li>This <b>ELEMENTAL DATA</b>(<img src="http://lifesciencedb.jp/bp3d/css/primitive.png" alt="primitive.png" />) is mapped to the corresponding , or the closest concept chosen from FMA. 
+</li><li>Form the side of concept mapping concept to contour is called <b>representation</b>.
+</li><li>Those mapped <b>ELEMENTALS</b> are re-used in generating logical aggregation of contour data for higher order concepts .
+</li><li>For this purpose ontological relations of concepts provided from out-side of the project , at this moment FMA, is used.  (<b>build-up contour; build-up concept</b>)
+</li><li>Accordingly, the same concept may be represented by different <b>COMPOUND DATA (<img src="http://lifesciencedb.jp/bp3d/css/075.png" alt="075.png" />)</b> depending on the choice of the logic.
+</li><li>For example,  big organ have only <b>COMPOUND contour</b> in part-of logic but no <b>is-a contor</b> because it dose dot have categorical subordinates.
+</li><li> <b>Representation</b> have two types; <b>ELEMENTAL/DIRECT representation</b> and <b>COMPOUND/SECONDARYrepresentation</b>. 
+</li><li> COMPOUND representation may be complete(<img src="http://lifesciencedb.jp/bp3d/css/100.png" alt="100.png" />) in some cases such as "left hand+right hand--&gt;hands".
+</li><li> But in most cases, only a subset of subordinate concept have "ELEMENTAL DATA<b>. </b>
+</li><li> In such cases, representation has a feature called <b>representation density</b>.
+</li><li> The ration of represented subordinate concepts and all subordinate concepts in COMPOUND is <b>density</b> shown by red/white Pie. 
+</li></ol>
+<p><a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/File:Heart_tree.jpg" class="image"><img alt="Heart tree.jpg" src="http://rgm22.nig.ac.jp/mediawiki-ogareport/images/thumb/1/1e/Heart_tree.jpg/400px-Heart_tree.jpg" width="400" height="300" /></a>　　<br />
+</p>
+<ol><li>Build-up Representation of mandibula with FMA:Part-OF logic.  IN bp3.0 data, with fma3.0 part-of logic, build-up representation density for FMA7485:Mandibura, is 3/7 .
+</li></ol>
+<h3> <span class="mw-headline" id="Data_stats_.26_Release_Hx">Data stats &amp; Release Hx</span></h3>
+<ul><li>Stats in concept number
+</li></ul>
+<p>In the present version, relations of logic and contour representation s are as follows.  <a rel="nofollow" class="external autonumber" href="http://lifesciencedb.jp/bp3d/info/index.html#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B5%5D(0)(3)(Int)%26%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B5%5D(88)(3)(ws.)">[12]</a>
+</p>
+<pre>
+bp3d_v2.0	FMA concepts	ELEMENTAL COMPOUND 
+is-a tree	80457	843	643
+part-of tree	35597	408	326
+in both tree	30068	406	0
+all unique FMA	80457	845	969
+bp3d_v3.0	FMA concepts	ELEMENTAL COMPOUND 
+is-a tree	80457	912	700
+part-of tree	35597	436	353
+in both tree	30068	433	0
+all unique FMA	80457	915	1053
+bp3d_v4.0	FMA concepts	ELEMENTAL 	COMPOUND 
+is-a tree	80457	1651	1254
+part-of tree	35597	765	603
+in both tree	30068	764	3
+all unique FMA	80457	1652	1854
+</pre>
+<pre>
+	                        TA	FMA				
+Material Anatomical Entity	460y1	4600				
+Inmaterial Anatomical Entity	2238	2306		
+※obj有無に関係無くTA-FMA対応がある数		
+						
+						
+Material Anatomical Entity TA：4601
+	           IS-A			PART-OF		
+  	      V2	V3	V4	V2	V3	V4
+element	        96	99	211	63	73	137
+compound	299	334	514	66	74	161
+						
+Material Anatomical Entity	IS-A			PART-OF		
+FMA：4600	V2	V3	V4	V2	V3	V4
+element	93	98	207	63	72	133
+compound	293	325	499	63	71	160
+						
+						
+Inmaterial Anatomical Entity  TA:2238	
+             IS-A			PART-OF		
+	      V2	V3	V4	V2	V3	V4
+element	      12	17	22	0	0	0
+compound      10	12	14	5	5	5
+						
+Inmaterial Anatomical Entity FMA:2306
+	     IS-A			PART-OF		
+	      V2	V3	V4	V2	V3	V4
+element	      12	17	21	0	0	0
+compound	8	10	12	5	5	5
+</pre>
+<ul><li>Release 4.0 (2013/5) Release Note (2013/5) 
+</li><li>Release 3.0 (2011/6/20) 
+<ul><li>Release Note (2011/6/20) 
+</li><li>Release Note (2010/4/28) 
+</li><li>Modeling Note (PDF)(2010/7/21) 
+</li><li>BodyParts3D Origin and insertion of skeletal muscles (Excel)(2010/8/30)  
+</li></ul>
+</li><li>Release 1.0 (2009/2/9) <a rel="nofollow" class="external autonumber" href="http://lifesciencedb.jp/bp3d/info_en/userGuide/releaseNotes/index.html#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Ful%5B1%5D%2Fli%5B1%5D(0)(3)(Rel)%26%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Ful%5B2%5D%2Fli%5B2%5D(22)(3)(%2F9))">[13]</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Outside_Resources">Outside Resources</span></h2>
+<h3> <span class="mw-headline" id="FMA_Foundation_model_of_Anatomy_of_Wahington-U">FMA Foundation model of Anatomy of Wahington-U </span></h3>
+<ul><li>Rosse C, Mejino JL, Modayur BR, Jakobovits R, Hinshaw KP, Brinkley JF. Motivation and organizational principles for anatomical knowledge representation: the Digital Anatomist Symbolic Knowledge Base. J Am Med Inform Assoc. 1998;5:17?40. 
+</li><li>Extraction from AMIA Annu Symp Proc. 2003; 2003: 450?454.PMCID: PMC1480337 Representing Complexity in Part-Whole Relationships within the Foundational Model of Anatomy by Jose L.V. Mejino, Jr, MD, Augusto V. Agoncillo, MD, Kurt L. Rickard, PhD, and Cornelius Rosse, MD, DSc <a rel="nofollow" class="external autonumber" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1480337/#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3Bf1-092%26quot%3B%5D%2Ffollowing-sibling%3A%3Ap%5B1%5D%2Fem%5B1%5D(0)(3)(Con)%26%2F%2Fdiv%5B%40id%3D%26quot%3Bf1-092%26quot%3B%5D%2Ffollowing-sibling%3A%3Ap%5B7%5D(77)(3)(c.%3B)">[14]</a>
+</li></ul>
+<h4> <span class="mw-headline" id="Terms_in_FMA">Terms in FMA</span></h4>
+<ul><li> <b>Constitutional part</b> is a primary partition of an anatomical structure into its compositionally distinct anatomical elements. 
+</li><li> In the context of the whole, an element is any relatively simple component of which a larger, more complex anatomical structure is compounded; i.e., the partition is compositional rather than spatial.
+</li><li> <b>Regional part</b> is a primary partition that spatially subdivides an anatomical structure into sets of diverse constitutional parts that share a given location within the whole; i.e., the partition is spatial rather than compositional. 
+</li><li> Entities in all subclasses of Anatomical structure have both constitutional and regional parts, as illustrated by the following 
+</li></ul>
+<p>examples:
+</p>
+<ul><li><ul><li>Neuron -has constitutional part-Plasma membrane, Protoplasm;
+</li><li>Neuron-has regional part-Cell body, Axon, Dendrite;
+</li><li>Lung -has constitutional part- Visceral pleura, Lung parenchyma, Intrapulmonary airway, Vasculature, Neural network;
+</li><li>Lung -has regional part- Lobe of lung;Lobe of lung -has constitutional part- Visceral pleura, Lung parenchyma etc.;
+</li></ul>
+</li></ul>
+<ul><li><b>Part-whole relationships</b> are valid only for entities of the same dimension; 
+</li><li><b>boundary relationships</b> are valid for entities that differ by one in their dimensionality. 
+</li></ul>
+<p>Accordingly, the following are valid assertions: 
+</p>
+<ul><li><ul><li>Right ventricle -has part- Wall of right ventricle, Cavity of right ventricle (3D anatomical entities); 
+</li><li>Surface of heart -has part- Diaphragmatic surface of heart (2D entities); and 
+</li><li>Surface of heart -bounds- Heart (2D and 3D entities, respectively). <a rel="nofollow" class="external autonumber" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1480337/#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3Bmaincontent%26quot%3B%5D%2Fdiv%5B1%5D%2Fdiv%5B3%5D%2Fdiv%5B1%5D%2Fdiv%5B6%5D%2Fp%5B2%5D(121)(3)(Par)%26%2F%2Fdiv%5B%40id%3D%26quot%3Bmaincontent%26quot%3B%5D%2Fdiv%5B1%5D%2Fdiv%5B3%5D%2Fdiv%5B1%5D%2Fdiv%5B6%5D%2Fp%5B2%5D(585)(3)(y).)">[15]</a>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="Terminologia_Anatomica">Terminologia Anatomica</span></h3>
+<ul><li><ul><li>Short introduction and link
+</li></ul>
+</li><li> <b>TA contains terminology for about 7500 human gross (macroscopic) anatomical structures, while TH contains terminology for cellular structures, tissue and organs at the microscopic level.</b>  <a rel="nofollow" class="external autonumber" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2740970/#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3Bmaincontent%26quot%3B%5D%2Fdiv%5B3%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B3%5D%2Fp%5B1%5D(497)(3)(TAc)%26%2F%2Fdiv%5B%40id%3D%26quot%3Bmaincontent%26quot%3B%5D%2Fdiv%5B3%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B3%5D%2Fp%5B1%5D(684)(3)(el.)">[16]</a>
+</li></ul>
+<blockquote> Terminologia Anatomica (TA) is the international standard on human anatomic terminology. It was developed by the Federative Committee on Anatomical Terminology (FCAT) and the International Federation of Associations of Anatomists (IFAA) and was released in 1998.[1] It supersedes the previous standard, Nomina Anatomica.[2] Terminologia Anatomica contains terminology for about 7500 human gross (macroscopic) anatomical structures.[3] In April 2011, Terminologia Anatomica was published online by the Federative International Programme on Anatomical Terminologies (FIPAT), the successor of FCAT. <a rel="nofollow" class="external autonumber" href="http://en.wikipedia.org/wiki/Terminologia_anatomica#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3Bmw-content-text%26quot%3B%5D%2Fp%5B1%5D%2Fi%5B1%5D%2Fb%5B1%5D(0)(3)(Ter)%26%2F%2Fdiv%5B%40id%3D%26quot%3Bmw-content-text%26quot%3B%5D%2Fp%5B1%5D(594)(3)(AT.)">[17]</a></blockquote>
+<p><a rel="nofollow" class="external free" href="http://en.wikipedia.org/wiki/Terminologia_anatomica">http://en.wikipedia.org/wiki/Terminologia_anatomica</a>
+</p>
+<h3> <span class="mw-headline" id="Funato.27s_Japanses_translation_digital_text_.40_Keiko_Univ._Med.Schl.">Funato's Japanses translation digital text @ Keio Univ. Med.Schl.</span></h3>
+<p><a rel="nofollow" class="external free" href="http://www.anatomy.med.keio.ac.jp/funatoka/TA.html">http://www.anatomy.med.keio.ac.jp/funatoka/TA.html</a>
+</p>
+<h3> <span class="mw-headline" id="Image_templates_and_reference">Image templates and reference</span></h3>
+<ul><li><ul><li>Taro
+</li><li>Stanford
+</li><li>MAI
+</li><li>Talairach
+</li></ul>
+</li><li>Reference books heavily used
+<ul><li>FENEIS
+</li><li>FUNATO's site
+</li><li>RauberKopsch
+</li></ul>
+</li><li>Reference 3D data and sites
+<ul><li>Visible
+</li><li>BodyBrowser
+</li><li>Lung CD
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="Terminology.2C_references.2C_random_QA.2C_Tips">Terminology, references, random QA, Tips</span></h2>
+<h3> <span class="mw-headline" id="Terminology">Terminology</span></h3>
+<ol><li> Concept have FMAID (mostly), and contour data (=3D polygon files = obj files). They are different entities.
+</li><li> A relation of <b>concept/FMA1234</b> and <b>contour data/FJ3456.obj</b> is called <b>Representation</b>. 
+</li><li> Since representation may change time to time, we put representation ID "BP1234" for these paired ID.
+</li><li> <b>Representation</b> have two types; <b>ELEMENTAL/DIRECT representation</b> and <b>COMPOUND/SECONDARY representation</b>. 
+</li><li> A contour data file made by artist is referred to as: <b>ELEMENTAL DATA</b>denoted by red target in icon (image here)
+</li><li> Concept manually mapped with one <b>ELEMENTAL DATA</b>for its sufficient representation is: <b>ELEMENTAL/DIRECTLY represented concept</b>        
+</li><li> Contour file made operationally by joining one or more ELEMENTAL DATA according to the provided tree of concepts are: <b>COMPOUND/SECONDARY represented DATA</b>; <b>COMPOUNDS</b>. denoted by red/white pie (image here)
+</li><li> The ratio of existing part and missing part in <b>COMPOUND</b> is shown by red/white Pie.
+</li></ol>
+<ul><li>About representation, concept,
+</li></ul>
+<h2> <span class="mw-headline" id="More_infromation_sources">More infromation sources</span></h2>
+<ul><li>Nobutaka Mitsuhashi, Kaori Fujieda, Takuro Tamura, Shoko Kawamoto, Toshihisa Takagi, and Kousaku Okubo BodyParts3D: 3D structure database for anatomical concepts Nucleic Acids Research, 2009, Vol. 37, Database issue D782-D785, DOI 10.1093/nar/gkn613. 
+</li><li>Presentations  BMB2009| BMB2008| BMB2007 
+</li><li>Seminars (AJACS) 2010年度: AJACSみちのく(2010/8)| AJACS and DDBJing in 東京(2010/6)| AJACS湘南２(2010/6) 2009年度: AJACSりんくう(2009/11)| AJACS近江２(2009/10)| AJACS三河(2009/7) 2008年度: AJACS長津田(2009/1)| AJACS近江| AJACS博多| AJACS本郷１ 
+</li><li>Symposium 「データベースが拓くこれからのライフサイエンス」(2009/6/21) <a rel="nofollow" class="external autonumber" href="http://lifesciencedb.jp/bp3d/info_en/download/index.html#hyperanchor1.3%3A%2F%2Fa%5B%40id%3D%26quot%3Blinks%26quot%3B%5D(0)(3)(%E3%83%80%E3%82%A6%E3%83%B3)%26%2F%2Fdiv%5B%40id%3D%26quot%3BbaseDiv%26quot%3B%5D%2Ftable%5B1%5D%2Ftbody%5B1%5D%2Ftr%5B1%5D%2Ftd%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fli%5B3%5D%2Ful%5B1%5D%2Fli%5B1%5D%2Fa%5B1%5D(35)(3)(21))">[18]</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Embed_in_Third_parties">Embed in Third parties</span></h3>
+<ul><li> Embodied Ontologies by Karen Breneman Prezi presentation <a rel="nofollow" class="external free" href="http://prezi.com/7yhhasfeedcm/embodied-ontologies/">http://prezi.com/7yhhasfeedcm/embodied-ontologies/</a>
+</li></ul>
+<h1> <span class="mw-headline" id="Dissemination_status">Dissemination status</span></h1>
+<p><a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/File:%E5%9B%B31.png" class="image"><img alt="図1.png" src="http://rgm22.nig.ac.jp/mediawiki-ogareport/images/thumb/b/b7/%E5%9B%B31.png/400px-%E5%9B%B31.png" width="400" height="269" /></a>
+</p>
+<h3> <span class="mw-headline" id="Systematic_use_of_API_from_programs.28_General.2C_Molecular_and_Clinical.29">Systematic use of API from programs( General, Molecular and Clinical)</span></h3>
+<ul><li> RefEx&#160;: <a rel="nofollow" class="external free" href="http://refex.dbcls.jp/genelist.php?lang=ja&amp;db=human&amp;gc40">http://refex.dbcls.jp/genelist.php?lang=ja&amp;db=human&amp;gc40</a>[]=v10&amp;order_key=score
+</li><li> Fantom 5 by RIKEN: <a rel="nofollow" class="external free" href="http://read.gsc.riken.go.jp/5/sstar/UBERON:0008886">http://read.gsc.riken.go.jp/5/sstar/UBERON:0008886</a>
+</li><li> Disease Chain Viewer by Tokyo-U Med, Osaka-U Engnr: <a rel="nofollow" class="external free" href="http://hozoviewer.ei.sanken.osaka-u.ac.jp/ChainViewerWebRDFTest/">http://hozoviewer.ei.sanken.osaka-u.ac.jp/ChainViewerWebRDFTest/</a>
+</li><li> MEtagenome JP&#160;: <a rel="nofollow" class="external free" href="http://mg.bio.titech.ac.jp/mg/humanbody">http://mg.bio.titech.ac.jp/mg/humanbody</a>
+</li><li> Medneuroatlas: <a rel="nofollow" class="external free" href="http://genrich.github.io/medneuroatlas/www/">http://genrich.github.io/medneuroatlas/www/</a>
+</li><li> KnowLife: <a rel="nofollow" class="external free" href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6816754&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6816754">http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6816754&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6816754</a>
+</li><li> Anatomical termsinfo by CASK-group, dept. of Anatomy &amp; Embryology, Leiden University Medical Center&#160;: <a rel="nofollow" class="external free" href="http://www.anatomicalterms.info/about">http://www.anatomicalterms.info/about</a>
+</li></ul>
+<p>&lt;iframe frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="550" height="400" src="<a rel="nofollow" class="external free" href="http://prezi.com/embed/vmwtuw_ije71/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0#">http://prezi.com/embed/vmwtuw_ije71/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0#</a>"&gt;&lt;/iframe&gt;
+</p>
+<h3> <span class="mw-headline" id="3D_data_use_.28Physiome_research.2C_Diagnostic.2C_Clinical_devices.2C_Education.29">3D data use (Physiome research, Diagnostic, Clinical devices, Education) </span></h3>
+<ul><li> Physiological simulation: 
+<ul><li> Heart <a rel="nofollow" class="external free" href="http://www.sciencedirect.com/science/article/pii/S0965997811000536">http://www.sciencedirect.com/science/article/pii/S0965997811000536</a>
+</li><li> Chest cage fantom
+</li><li> Skeleton: <a rel="nofollow" class="external free" href="http://www.sigmath.es.osaka-u.ac.jp/suzuki/pdf/biomag.pdf">http://www.sigmath.es.osaka-u.ac.jp/suzuki/pdf/biomag.pdf</a>
+</li></ul>
+</li><li> Diagnostic education]: EchoTraning device "Affordable Ultrasound Training Simulator" <a rel="nofollow" class="external autonumber" href="https://www.cse.sc.edu/files/lhood.pdf#null">[19]</a>
+</li><li> Clinical decision support: <a rel="nofollow" class="external free" href="https://dspace-prod-lib.cc.uic.edu/handle/10027/11133">https://dspace-prod-lib.cc.uic.edu/handle/10027/11133</a>
+</li><li> Clinical device development:KUBOTA corp.、Termo corp. NEDO 
+</li><li> Elementary education project at Stanford <a rel="nofollow" class="external free" href="http://web.stanford.edu/class/engr110/pdf/Team-Walrus.pdf">http://web.stanford.edu/class/engr110/pdf/Team-Walrus.pdf</a>
+<ul><li> NEDO Thorax surgery aid project; report <a rel="nofollow" class="external free" href="http://www.nedo.go.jp/content/100502220.pdf">http://www.nedo.go.jp/content/100502220.pdf</a>
+</li><li> NEDO endoscopic surgery project&#160;: NEDO MITI　<a rel="nofollow" class="external free" href="http://www.nedo.go.jp/content/100519719.pdf">http://www.nedo.go.jp/content/100519719.pdf</a>　　2012/09/13
+</li></ul>
+</li><li> Brain physiology simulation&#160;: Tokyo-U Nakamura lab. Keiko Fujii
+</li><li> Education atlases: iPhone app　by Third party: <a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/File:%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3204.PNG" class="image"><img alt="キャプチャ204.PNG" src="http://rgm22.nig.ac.jp/mediawiki-ogareport/images/thumb/f/f5/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3204.PNG/300px-%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3204.PNG" width="300" height="195" /></a>
+<ul><li><a rel="nofollow" class="external free" href="https://itunes.apple.com/jp/app/anatomy-cardiovascular-system/id560434744?mt=8">https://itunes.apple.com/jp/app/anatomy-cardiovascular-system/id560434744?mt=8</a>
+</li><li><a rel="nofollow" class="external free" href="https://itunes.apple.com/jp/app/skeletal-anatomy./id547000107?mt=8">https://itunes.apple.com/jp/app/skeletal-anatomy./id547000107?mt=8</a>
+</li><li><a rel="nofollow" class="external free" href="https://itunes.apple.com/jp/app/digestive-pro/id548187116?mt=8">https://itunes.apple.com/jp/app/digestive-pro/id548187116?mt=8</a>
+</li><li><a rel="nofollow" class="external free" href="https://itunes.apple.com/jp/app/brain-3d-for-iphone/id545703549?mt=8">https://itunes.apple.com/jp/app/brain-3d-for-iphone/id545703549?mt=8</a>
+</li></ul>
+</li><li><a rel="nofollow" class="external free" href="http://www.cndp.fr/entrepot/themadoc/vivre-sa-sexualite-les-bases-neurobiologiques-du-comportement-sexuel/en-pratique/premiere-s.html">http://www.cndp.fr/entrepot/themadoc/vivre-sa-sexualite-les-bases-neurobiologiques-du-comportement-sexuel/en-pratique/premiere-s.html</a>
+</li><li>Project OSMOSIS: <a rel="nofollow" class="external free" href="https://www.osmosis.org/anatomy/">https://www.osmosis.org/anatomy/</a>
+</li><li>A second life character by Horacio Ganez Alcolea 
+</li></ul>
+<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/Dmrll3iC_Kk&amp;enablejsapi=1&amp;playerapiid=Dmrll3iC_Kk" width="425" height="355" id="YT_Dmrll3iC_Kk"><param name="movie" value="http://www.youtube.com/v/Dmrll3iC_Kk&amp;enablejsapi=1&amp;playerapiid=Dmrll3iC_Kk"/><param name="wmode" value="transparent"/><param name="allowScriptAccess" value="always"/></object>
+
+<h3> <span class="mw-headline" id="Downloads_and_Mirrors_for_CAD_and_3D_printing_community">Downloads and Mirrors for CAD and 3D printing community</span></h3>
+<ul><li> anonymous ftp: 60 countries in 5month (2012,Jan-May). downloads from several mirror sites are uncountable.
+<ul><li>Mirror sites
+</li><li> <b>Thingiverse</b> by Makerbot: <a rel="nofollow" class="external free" href="http://www.thingiverse.com/search?q=bodyparts3D&amp;sa=">http://www.thingiverse.com/search?q=bodyparts3D&amp;sa=</a>
+</li><li> <a rel="nofollow" class="external free" href="http://down3dmodels.com/bodyparts3d-3-0-obj/">http://down3dmodels.com/bodyparts3d-3-0-obj/</a>
+</li><li> <a rel="nofollow" class="external free" href="http://www.yeggi.com/q/bodyparts3d/?s=tt">http://www.yeggi.com/q/bodyparts3d/?s=tt</a>
+</li><li> "Original BodyParts3D files":<a rel="nofollow" class="external free" href="https://www.biomedtown.org/biomed_town/MSV/reception/data/Anatomy/bodyparts3d_20100816.zip?action=download">https://www.biomedtown.org/biomed_town/MSV/reception/data/Anatomy/bodyparts3d_20100816.zip?action=download</a>
+</li><li> "VTK grouped files based on organ system":<a rel="nofollow" class="external free" href="https://www.biomedtown.org/biomed_town/MSV/reception/data/Anatomy/BodyParts3D_2.0_obj_99_VTK.zip?action=download">https://www.biomedtown.org/biomed_town/MSV/reception/data/Anatomy/BodyParts3D_2.0_obj_99_VTK.zip?action=download</a>
+</li><li> "Original BodyParts3D":<a rel="nofollow" class="external free" href="https://www.biomedtown.org/biomed_town/MSV/reception/data/Anatomy/BodyParts3D_2.0_obj_95.zip?action=download">https://www.biomedtown.org/biomed_town/MSV/reception/data/Anatomy/BodyParts3D_2.0_obj_95.zip?action=download</a>
+</li><li> <a rel="nofollow" class="external free" href="http://www.mathieufrossard.com/2012/09/14/full-anatomy-model-free-download/">http://www.mathieufrossard.com/2012/09/14/full-anatomy-model-free-download/</a>
+</li><li> ZB Link&#160;:<a rel="nofollow" class="external free" href="https://dl.dropbox.com/u/17131540/Fichier%20site%20web/BodyParts3D_Zbrush.zip">https://dl.dropbox.com/u/17131540/Fichier%20site%20web/BodyParts3D_Zbrush.zip</a>
+</li><li> Obj link&#160;:<a rel="nofollow" class="external free" href="https://dl.dropbox.com/u/17131540/Fichier%20site%20web/BodyParts3D_3.0_obj_99.zip">https://dl.dropbox.com/u/17131540/Fichier%20site%20web/BodyParts3D_3.0_obj_99.zip</a>
+</li><li> WAREZPEDIA: <a rel="nofollow" class="external free" href="http://www.warezpedia.com/graphics/4356-3d-models-body-parts-3d-30.html">http://www.warezpedia.com/graphics/4356-3d-models-body-parts-3d-30.html</a>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="Image_use"> Image use</span></h3>
+<ul><li> wikimedia commons&#160;: Thanks to many, especially to <b>WAS A BEE</b>&#160;: <a rel="nofollow" class="external free" href="https://commons.wikimedia.org/wiki/Category:Animations_from_Anatomography">https://commons.wikimedia.org/wiki/Category:Animations_from_Anatomography</a>
+</li><li> 15 japanese Web sites: <a rel="nofollow" class="external free" href="http://en.wikipedia.org/wiki/Category:Japanese_websites">http://en.wikipedia.org/wiki/Category:Japanese_websites</a>
+</li><li> TV programs: France, UK, US
+</li></ul>
+<h3> <span class="mw-headline" id="Scholarly_journals">Scholarly journals</span></h3>
+<ul><li> <a rel="nofollow" class="external free" href="http://www.researchgate.net/publication/232255440_Automated_differentiation_of_pre-diagnosis_Huntington's_disease_from_healthy_control_individuals_based_on_quadratic_discriminant_analysis_of_the_basal_ganglia_The_IMAGE-HD_study/file/60b7d51e5160908636.pdf">http://www.researchgate.net/publication/232255440_Automated_differentiation_of_pre-diagnosis_Huntington's_disease_from_healthy_control_individuals_based_on_quadratic_discriminant_analysis_of_the_basal_ganglia_The_IMAGE-HD_study/file/60b7d51e5160908636.pdf</a>
+</li><li> "Among the assessed manikins, the Human BioDigital and Anatomography were the ones with the best scores overall, 16 points or 80%. In the big picture, the manikins had a mean score of 2.78 points or 55.56% with a standard deviation of 1.56." says Mata, Thiago Henrique, and Andre Barros Sales. "Definicao de criterios para avaliar bonecos anatomicos 3D na web para ensino na area da saude ou aplicacoes medicas." Extensio: Revista Eletronica de Extensao 9.14 (2013): 44-54.
+</li><li> Imaging genetics in dyslexia by John D. Eichera, Jeffrey R. Gruena, <a rel="nofollow" class="external free" href="http://www.sciencedirect.com/science/article/pii/S1096719213002266">http://www.sciencedirect.com/science/article/pii/S1096719213002266</a>
+</li><li> Cell Volume 144, Issue 4, 18 February 2011, Pages 459, 461 <a rel="nofollow" class="external autonumber" href="http://www.sciencedirect.com/science/article/pii/S0092867411001255#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3Bfrag_1%26quot%3B%5D(1)(1)()%26%2F%2Fdiv%5B%40id%3D%26quot%3Bfrag_1%26quot%3B%5D%2Fdiv%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fp%5B1%5D(53)(3)(461)">[20]</a>
+</li></ul>
+<ul><li> The Benefit of Non Contrast-Enhanced Magnetic Resonance Angiography for Predicting Vascular Access Surgery Outcome: A Computer Model Perspective <a rel="nofollow" class="external free" href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0053615">http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0053615</a>
+</li></ul>
+<ul><li> Automated differentiation of pre-diagnosis Huntington's disease from healthy control individuals based on quadratic discriminant analysis of the basal ganglia: The IMAGE-HD study                        <a rel="nofollow" class="external free" href="http://www.sciencedirect.com/science/article/pii/S0969996112003294">http://www.sciencedirect.com/science/article/pii/S0969996112003294</a>
+</li><li> Darwin y su Contribucion a las Humanidades y a la Sociedad                        <a rel="nofollow" class="external free" href="http://pmrb.net/home/sites/default/files/darwin_humanidades1.pdf">http://pmrb.net/home/sites/default/files/darwin_humanidades1.pdf</a>
+</li><li>Automated differentiation of pre-diagnosis Huntington's disease from healthy control individuals based on quadratic discriminant analysis of the basal ganglia: The IMAGE-HD study <a rel="nofollow" class="external autonumber" href="http://www.sciencedirect.com/science/article/pii/S0969996112003294#hyperanchor1.3%3A%2F%2Fdiv%5B%40id%3D%26quot%3BcenterInner%26quot%3B%5D%2Fh1%5B1%5D(0)(3)(Aut)%26%2F%2Fdiv%5B%40id%3D%26quot%3BcenterInner%26quot%3B%5D%2Fh1%5B1%5D(178)(3)(udy)">[21]</a>
+</li><li> A computer model based on real anatomy for electrophysiological study: <a rel="nofollow" class="external free" href="http://www.sciencedirect.com/science/article/pii/S0965997811000536">http://www.sciencedirect.com/science/article/pii/S0965997811000536</a>
+</li><li> Identification and functional characterization of microRNAs in medulloblastoma:<a rel="nofollow" class="external free" href="http://archiv.ub.uni-heidelberg.de/volltextserver/12648/">http://archiv.ub.uni-heidelberg.de/volltextserver/12648/</a>
+</li><li> Estimation of sex from the human hyoid bone in a contemproary white European population <a rel="nofollow" class="external free" href="http://library2.smu.ca/handle/01/24904#.UZ5KFbX0FqU">http://library2.smu.ca/handle/01/24904#.UZ5KFbX0FqU</a>
+</li><li>日本整形外科学会調査2009:<a rel="nofollow" class="external free" href="http://www.joa.or.jp/jp/media/comment/pdf/investigation_2009.pdf">http://www.joa.or.jp/jp/media/comment/pdf/investigation_2009.pdf</a>
+</li></ul>
+<div class="floatright"><a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/File:NEDO.JPG" class="image"><img alt="NEDO.JPG" src="http://rgm22.nig.ac.jp/mediawiki-ogareport/images/thumb/3/3f/NEDO.JPG/200px-NEDO.JPG" width="200" height="151" /></a></div>
+<ul><li> Modelisation des processus emotionnels dans la prise de decision <a rel="nofollow" class="external free" href="http://tel.archives-ouvertes.fr/docs/00/69/66/75/PDF/manuscript.pdf">http://tel.archives-ouvertes.fr/docs/00/69/66/75/PDF/manuscript.pdf</a>
+</li><li>De patient in de Nederlandse gezondheidszorg (book) <a rel="nofollow" class="external free" href="http://books.google.co.jp/books?hl=ja&amp;lr=&amp;id=kheAOHEikv8C&amp;oi=fnd&amp;pg=PT94&amp;dq=%22anatomography%22&amp;ots=_P5b6kQCzZ&amp;sig=hJ_zr3oU4XEwhpD11S5LhEzgFzU">http://books.google.co.jp/books?hl=ja&amp;lr=&amp;id=kheAOHEikv8C&amp;oi=fnd&amp;pg=PT94&amp;dq=%22anatomography%22&amp;ots=_P5b6kQCzZ&amp;sig=hJ_zr3oU4XEwhpD11S5LhEzgFzU</a>
+</li><li> Practical Aspects of Some  Bio-magnetic Inverse Problems <a rel="nofollow" class="external free" href="http://www.sigmath.es.osaka-u.ac.jp/suzuki/pdf/biomag.pdf">http://www.sigmath.es.osaka-u.ac.jp/suzuki/pdf/biomag.pdf</a>
+</li><li>Toward Integration of Biological and Physiological Functions at Multiple Levels <a rel="nofollow" class="external free" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3059937/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3059937/</a>
+</li><li> Imaging-genetics in dyslexia: Connecting risk genetic variants to brain neuroimaging and ultimately to reading impairmentsJohn D. Eichera, Jeffrey R. Gruena, b, c, &lt;img alt="Corresponding author contact information" src="<img src="http://origin-cdn.els-cdn.com/sd/entities/REcor.gif" alt="REcor.gif" />"&gt;,  <a rel="nofollow" class="external autonumber" href="http://www.sciencedirect.com/science/article/pii/S1096719213002266#hyperanchor1.3%3A%2F%2Fh1%5B%40id%3D%26quot%3Bti0005%26quot%3B%5D(0)(3)(Ima)%26%2F%2Fa%5B%40id%3D%26quot%3Bbcr0005%26quot%3B%5D%2Ffollowing-sibling%3A%3Aa%5B1%5D(1)(1)(href%3Amailto%3Ajeffrey.gruen%40yale.edu)">[22]</a>
+</li></ul>
+<h3> <span class="mw-headline" id="MEDIA">MEDIA</span></h3>
+<ul><li>WIKIMEDIA foundation global blog:<a rel="nofollow" class="external free" href="https://blog.wikimedia.org/2013/09/11/wikiskills-teachers-more-lessons-learned">https://blog.wikimedia.org/2013/09/11/wikiskills-teachers-more-lessons-learned</a>
+</li></ul>
+<ul><li> CAN ACN <a rel="nofollow" class="external free" href="http://can-acn.org/no-room-for-inaccuracy-in-the-brain">http://can-acn.org/no-room-for-inaccuracy-in-the-brain</a>
+</li><li>PLOSABLE <a rel="nofollow" class="external free" href="http://askabiologist.asu.edu/plosable/give-your-brain-break">http://askabiologist.asu.edu/plosable/give-your-brain-break</a>
+</li><li>Neuroscience Prize <a rel="nofollow" class="external free" href="http://www.kavlifoundation.org/2012-neuroscience-prize-explanatory-notes">http://www.kavlifoundation.org/2012-neuroscience-prize-explanatory-notes</a>
+</li><li>A&amp;P report <a rel="nofollow" class="external free" href="http://theapstudent.blogspot.jp/2009_11_09_archive.html">http://theapstudent.blogspot.jp/2009_11_09_archive.html</a>
+</li><li>Science update <a rel="nofollow" class="external free" href="http://www.scienceupdate.com/2013/06/bomb/">http://www.scienceupdate.com/2013/06/bomb/</a>&gt;
+</li><li>SiLog  <a rel="nofollow" class="external free" href="http://www.scilogs.com/scientific_and_medical_libraries/open-data-tools-turning-data-into-actionable-intelligence/">http://www.scilogs.com/scientific_and_medical_libraries/open-data-tools-turning-data-into-actionable-intelligence/</a>
+</li><li>Science inclusive  <a rel="nofollow" class="external free" href="http://scienceinclusive.com/2011/10/do-our-brains-determine-our-facebook-friend-count/">http://scienceinclusive.com/2011/10/do-our-brains-determine-our-facebook-friend-count/</a>
+</li><li>Francesco Giorlando's blog: <a rel="nofollow" class="external free" href="http://f.giorlando.org/life-sciences-data-base">http://f.giorlando.org/life-sciences-data-base</a>
+</li><li><a rel="nofollow" class="external free" href="http://www.scilogs.com/next_regeneration/inflamm-aging-inflammatory-signals-in-the-brain-regulate-the-lifespan/">http://www.scilogs.com/next_regeneration/inflamm-aging-inflammatory-signals-in-the-brain-regulate-the-lifespan/</a>
+</li><li>Blog article explaining how data can be reused in CAD software: <a rel="nofollow" class="external free" href="http://craig.bonsignore.com/2012/10/07/open-3d-human-anatomy/">http://craig.bonsignore.com/2012/10/07/open-3d-human-anatomy/</a>
+</li><li>Blog article with embed <a rel="nofollow" class="external free" href="http://teslabar.blogspot.jp/2011/12/bodyparts3d.html">http://teslabar.blogspot.jp/2011/12/bodyparts3d.html</a>
+</li></ul>
+<ul><li> ICT convention&#160;: <a rel="nofollow" class="external free" href="https://www.facebook.com/media/set/?set=a.10151393356163204.1073741829.44244463203&amp;type=3">https://www.facebook.com/media/set/?set=a.10151393356163204.1073741829.44244463203&amp;type=3</a>
+</li><li>BodyParts in matlab: <a rel="nofollow" class="external free" href="http://wspr.wordpress.com/2013/05/">http://wspr.wordpress.com/2013/05/</a>
+</li><li>Download mirrors 
+<ul><li><a rel="nofollow" class="external free" href="http://torrentmedia.org/bodyparts3d++use+multiple+obj+files.html">http://torrentmedia.org/bodyparts3d++use+multiple+obj+files.html</a>
+</li><li><a rel="nofollow" class="external free" href="http://img33.imageshack.us/img33/659/ihnwy.jpg%7C200px">http://img33.imageshack.us/img33/659/ihnwy.jpg%7C200px</a>
+</li><li><a rel="nofollow" class="external free" href="http://u26019801.letitbit.net/download/06236.0a9a6c89e706edf54a97f94a9734/BodyParts3D_3.0_obj.rar.html">http://u26019801.letitbit.net/download/06236.0a9a6c89e706edf54a97f94a9734/BodyParts3D_3.0_obj.rar.html</a>
+</li><li><a rel="nofollow" class="external free" href="http://www.vincedoyle.com/?do=searchcloud&amp;subaction=search&amp;story=BodyParts3D%203.0%20obj">http://www.vincedoyle.com/?do=searchcloud&amp;subaction=search&amp;story=BodyParts3D%203.0%20obj</a>
+</li></ul>
+</li></ul>
+<p><img src="http://gfxhome.ws/uploads/posts/2012-08/thumbs/1344680655_ihnwy.jpg" alt="1344680655_ihnwy.jpg" />
+</p>
+<h2> <span class="mw-headline" id="3rd_party_delivations">3rd party delivations</span></h2>
+<ul><li>Remix video: by drbruno <a rel="nofollow" class="external free" href="http://vimeo.com/56883598">http://vimeo.com/56883598</a>
+</li><li>By Artist: scyrus
+</li></ul>
+<p><img src="http://preview.turbosquid.com/Preview/2013/05/21__09_32_43/skeletoncover01.bmp0c0eb295-1e0f-4a4f-81f6-cad046f86efaLarge.jpg" alt="skeletoncover01.bmp0c0eb295-1e0f-4a4f-81f6-cad046f86efaLarge.jpg" />
+</p>
+<h2> <span class="mw-headline" id=".E3.82.B7.E3.82.B9.E3.83.86.E3.83.A0.E8.A7.A3.E8.AA.AC">システム解説</span></h2>
+<p><a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/File:BPAT1.PNG" class="image"><img alt="BPAT1.PNG" src="http://rgm22.nig.ac.jp/mediawiki-ogareport/images/thumb/2/27/BPAT1.PNG/300px-BPAT1.PNG" width="300" height="212" /></a>
+</p>
+<ul><li> BodyParts3D/Anatomography サービスはウエブアプリケーション（BodyParts3Dサイト + アナトモグラフィーサイト) および　アナトモグラフィーウエブ-API を通じて　利用者のweb ブラウザー　または　カスタムプログラム　に対して　ボディーパーツ情報およびマップデータを提供しています。
+</li><li> BodyParts3D サイトは登録パーツデータベースを検索するためのウエブアプリケーションです
+</li><li> アナトモグラフィーサイトはマップエディター機能を提供するアナトモグラフィーウエブ-API 上のウエブアプリケーションです。
+</li><li>アナトモグラフィーウエブAPIはOpenGLにかぶさったウエブAPIで、リクエストに対してイメージデータおよびマップデータ要素を返します。
+</li><li>それぞれの構成は以下のようになっています。
+</li></ul>
+<p><a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/File:SYSTEM.PNG" class="image"><img alt="SYSTEM.PNG" src="http://rgm22.nig.ac.jp/mediawiki-ogareport/images/thumb/f/f7/SYSTEM.PNG/300px-SYSTEM.PNG" width="300" height="225" /></a>
+</p>
+<h3> <span class="mw-headline" id=".E6.8F.90.E4.BE.9B.E3.83.87.E3.83.BC.E3.82.BF.E3.82.BD.E3.83.BC.E3.82.B9">提供データソース</span></h3>
+<ul><li> パーツデータのメタ情報: 
+<ul><li>データアイコン: ３Dパーツデータが更新されるとプログラム的に作成しなおします（ビッツ）
+</li><li>データファイル名称と概念名称の対応：３Dパーツデータ更新時に作成します（大久保）
+</li><li>概念間の関係(FMA) および概念の呼称の辞書(FMA)：FMA更新時に入れ替えます（ビッツ）
+</li></ul>
+</li><li> ３Dパーツデータ (obj ファイル）: DBCLSから提供されます　ビッツのwebGL系の編集サイトから大久保に提供され各ファイルに概念がマップされます
+</li><li> 前者は登録パーツデータベースで管理されBodyParts3Dサイトを通じて検索利用されます。
+</li><li>後者はOpenGLに常にロードされており、ウエブAPIを通じて利用されます。
+</li></ul>
+<h3> <span class="mw-headline" id=".E7.B6.AD.E6.8C.81.E7.AE.A1.E7.90.86">維持管理</span></h3>
+<ul><li>ボディーパーツデータはいまだ付加更新中であるために　維持管理はデータ更新に伴うものと日々の利用上の管理があります。
+</li></ul>
+<h4> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E6.9B.B4.E6.96.B0.E3.81.AB.E4.BC.B4.E3.81.86.E7.AE.A1.E7.90.86">データ更新に伴う管理</span></h4>
+<h4> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E4.BF.AE.E6.AD.A3.E3.82.B5.E3.82.A4.E3.82.AF.E3.83.AB">データ修正サイクル</span></h4>
+<ul><li> Artsist がFFMで作ったデータはFMAマッピングの後でBAckStage Editor にOBJファイルとして登録されます。
+</li><li> Back stage で検出された形態上の誤りは　ウィンドウズ環境で訂正され再度Back Stageにアップされます。
+</li><li> この際に特定のデータセットで利用するファイルを指定しなおします。(use with which set or not) 
+</li><li> このステップが可能になったおかげでこれまで気づいていても放置されていた誤りがタイムリーに変更可能になります。
+</li></ul>
+<h4> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E8.BF.BD.E5.8A.A0.E3.82.B5.E3.82.A4.E3.82.AF.E3.83.AB">データ追加サイクル</span></h4>
+<ul><li> FFMで作成していない詳細なデータがMeshMixerで作成され追加されます。
+</li></ul>
+<p>ex. <a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/Heart_segmentation_and_coronary" title="Heart segmentation and coronary">Heart segmentation and coronary</a>
+ex <a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/Limbic_system" title="Limbic system">Limbic system</a> <a href="http://rgm22.nig.ac.jp/mediawiki-ogareport/index.php/Thalamus" title="Thalamus">Thalamus</a> At the resolution of neurosciences
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 210/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key oga_report_wikidb-mw_:pcache:idhash:1462-0!*!0!!en!2!* and timestamp 20160918150413 -->
+</div><div class="printfooter">
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+
+</DIV>
+</DIV>
+<DIV class="clear"></DIV>
+</DIV>
+</TD>
+</TR></TBODY></TABLE>
+
+</DIV>
+</DIV>
+
+</BODY></HTML>

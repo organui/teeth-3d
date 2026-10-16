@@ -1,0 +1,36 @@
+# Dependencies and caches
+node_modules/
+.bun/
+.cache/
+.vite/
+.next/
+.turbo/
+
+# Build outputs and verification artifacts
+dist/
+build/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vercel/
+
+# Local source-asset downloads; selected runtime assets are tracked separately
+.asset-cache/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log

@@ -1,0 +1,43 @@
+{
+  "name": "@organui/teeth",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "packageManager": "bun@1.4.2",
+  "scripts": {
+    "dev": "bun --bun vite --host 127.0.0.1",
+    "typecheck": "bun --bun tsc --noEmit",
+    "build": "bun run typecheck && bun --bun vite build",
+    "test": "bun test",
+    "preview": "bun --bun vite preview --host 127.0.0.1",
+    "prepare:model": "bun scripts/prepare-model.ts",
+    "verify:model": "bun scripts/verify-model.ts",
+    "format": "bun --bun prettier --write src scripts tests vite.config.ts tsconfig.json package.json",
+    "format:check": "bun --bun prettier --check src scripts tests vite.config.ts tsconfig.json package.json"
+  },
+  "dependencies": {
+    "@base-ui/react": "1.8.0",
+    "@fontsource-variable/dm-sans": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
+    "@react-three/fiber": "9.7.0",
+    "lucide-react": "1.47.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "4.5.0",
+    "@tailwindcss/vite": "4.1.18",
+    "@types/bun": "1.4.2",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "fflate": "0.8.3",
+    "prettier": "3.9.8",
+    "tailwindcss": "4.1.18",
+    "typescript": "7.0.2",
+    "vite": "8.3.0"
+  }
+}

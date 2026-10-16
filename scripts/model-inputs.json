@@ -1,0 +1,306 @@
+{
+  "mirrorCommit": "fd527e6f4daf732fd814314d9257df5877b844bc",
+  "mapping": {
+    "file": "docs/model-source/FMA2Obj-4.3.tsv",
+    "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+  },
+  "objects": [
+    {
+      "id": "FJ1252",
+      "file": "FJ1252.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1252_BP21475_FMA59763_Maxillary%20gingiva.obj",
+      "sha256": "e48d35d931ffbe6c5fd4d118fb3e96293e97a65ab0e6c190a844df1553a3f5c7",
+      "bytes": 120586,
+      "mirrorPath": "meshes/FJ1252_BP21475_FMA59763_Maxillary gingiva.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1252_BP21475_FMA59763_Maxillary%20gingiva.obj"
+    },
+    {
+      "id": "FJ1253",
+      "file": "FJ1253.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1253_BP22022_FMA59764_Mandibular%20gingiva.obj",
+      "sha256": "191e4e58dfeca645a32dfae7a66914334421a95694d172bb7c5d8388388e2c89",
+      "bytes": 117146,
+      "mirrorPath": "meshes/FJ1253_BP22022_FMA59764_Mandibular gingiva.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1253_BP22022_FMA59764_Mandibular%20gingiva.obj"
+    },
+    {
+      "id": "FJ1254",
+      "file": "FJ1254.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1254_BP20238_FMA55704_Left%20first%20lower%20molar%20tooth.obj",
+      "sha256": "3359a5a626603a3d983a486a5481d133a4b94bc6cea9fbe9979b522b7f9945e9",
+      "bytes": 103401,
+      "mirrorPath": "meshes/FJ1254_BP20238_FMA55704_Left first lower molar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1254_BP20238_FMA55704_Left%20first%20lower%20molar%20tooth.obj"
+    },
+    {
+      "id": "FJ1255",
+      "file": "FJ1255.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1255_BP23586_FMA55693_Left%20first%20lower%20premolar%20tooth.obj",
+      "sha256": "d08a5e3c119ff0630e41aa33da632be65e8a9ce2f49058440c98266f359b794e",
+      "bytes": 68776,
+      "mirrorPath": "meshes/FJ1255_BP23586_FMA55693_Left first lower premolar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1255_BP23586_FMA55693_Left%20first%20lower%20premolar%20tooth.obj"
+    },
+    {
+      "id": "FJ1256",
+      "file": "FJ1256.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1256_BP23842_FMA55703_Left%20second%20lower%20molar%20tooth.obj",
+      "sha256": "569854154209a267d1c3c45bfcdbf96cede5d9abb36d79fdad65de0525c1282d",
+      "bytes": 95349,
+      "mirrorPath": "meshes/FJ1256_BP23842_FMA55703_Left second lower molar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1256_BP23842_FMA55703_Left%20second%20lower%20molar%20tooth.obj"
+    },
+    {
+      "id": "FJ1257",
+      "file": "FJ1257.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1257_BP23362_FMA55692_Left%20second%20lower%20premolar%20tooth.obj",
+      "sha256": "c255d26e20a2e2e286fac4301f12a467f55e8147f05c2433f5eb5ef1192823be",
+      "bytes": 65575,
+      "mirrorPath": "meshes/FJ1257_BP23362_FMA55692_Left second lower premolar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1257_BP23362_FMA55692_Left%20second%20lower%20premolar%20tooth.obj"
+    },
+    {
+      "id": "FJ1258",
+      "file": "FJ1258.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1258_BP20208_FMA57143_Left%20lower%20central%20incisor%20tooth.obj",
+      "sha256": "e8c2dc641de79ea7c12d25516e8b21447129adf244505562699df4c44efabe00",
+      "bytes": 53593,
+      "mirrorPath": "meshes/FJ1258_BP20208_FMA57143_Left lower central incisor tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1258_BP20208_FMA57143_Left%20lower%20central%20incisor%20tooth.obj"
+    },
+    {
+      "id": "FJ1259",
+      "file": "FJ1259.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1259_BP20093_FMA57141_Left%20lower%20lateral%20incisor%20tooth.obj",
+      "sha256": "989b57b7be508933b4b24a67b89d550e44cd15582b0b660a5c55834bc4882a81",
+      "bytes": 55882,
+      "mirrorPath": "meshes/FJ1259_BP20093_FMA57141_Left lower lateral incisor tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1259_BP20093_FMA57141_Left%20lower%20lateral%20incisor%20tooth.obj"
+    },
+    {
+      "id": "FJ1260",
+      "file": "FJ1260.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1260_BP23457_FMA55687_Left%20lower%20canine%20tooth.obj",
+      "sha256": "e9fb8c8cbac421957c1f53d6ce9f8037d17def7a1a0efee5270b755543e9d449",
+      "bytes": 68838,
+      "mirrorPath": "meshes/FJ1260_BP23457_FMA55687_Left lower canine tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1260_BP23457_FMA55687_Left%20lower%20canine%20tooth.obj"
+    },
+    {
+      "id": "FJ1261",
+      "file": "FJ1261.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1261_BP20252_FMA55699_Left%20first%20upper%20molar%20tooth.obj",
+      "sha256": "ef3a9e8a0a5f6e910a34b220e748669e6e8919aa917527151d8b918e4b592401",
+      "bytes": 127629,
+      "mirrorPath": "meshes/FJ1261_BP20252_FMA55699_Left first upper molar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1261_BP20252_FMA55699_Left%20first%20upper%20molar%20tooth.obj"
+    },
+    {
+      "id": "FJ1262",
+      "file": "FJ1262.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1262_BP23649_FMA55690_Left%20first%20upper%20premolar%20tooth.obj",
+      "sha256": "9f0e6b624907758b778a1cd3051f3de91b5611775ec0cef60b063af853a3b58a",
+      "bytes": 94899,
+      "mirrorPath": "meshes/FJ1262_BP23649_FMA55690_Left first upper premolar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1262_BP23649_FMA55690_Left%20first%20upper%20premolar%20tooth.obj"
+    },
+    {
+      "id": "FJ1263",
+      "file": "FJ1263.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1263_BP21638_FMA55700_Left%20second%20upper%20molar%20tooth.obj",
+      "sha256": "d1f79c5f1b744e4366d47a5a19e418c07560df8b465faed9c126e8fb6b9fb306",
+      "bytes": 109684,
+      "mirrorPath": "meshes/FJ1263_BP21638_FMA55700_Left second upper molar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1263_BP21638_FMA55700_Left%20second%20upper%20molar%20tooth.obj"
+    },
+    {
+      "id": "FJ1264",
+      "file": "FJ1264.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1264_BP23393_FMA55691_Left%20second%20upper%20premolar%20tooth.obj",
+      "sha256": "31611d213c8c0c01918f21f9bd74a73c5d099ecbe567cb6a1605b50e334e6b2f",
+      "bytes": 86531,
+      "mirrorPath": "meshes/FJ1264_BP23393_FMA55691_Left second upper premolar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1264_BP23393_FMA55691_Left%20second%20upper%20premolar%20tooth.obj"
+    },
+    {
+      "id": "FJ1265",
+      "file": "FJ1265.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1265_BP21643_FMA55682_Left%20upper%20central%20incisor%20tooth.obj",
+      "sha256": "840be28e64647ee17f8b690eadc32bdb95dfb4a819a36eebdf703c23a1fafc77",
+      "bytes": 75378,
+      "mirrorPath": "meshes/FJ1265_BP21643_FMA55682_Left upper central incisor tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1265_BP21643_FMA55682_Left%20upper%20central%20incisor%20tooth.obj"
+    },
+    {
+      "id": "FJ1266",
+      "file": "FJ1266.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1266_BP20094_FMA55683_Left%20upper%20lateral%20incisor%20tooth.obj",
+      "sha256": "f9f6e49004ae6478421a72aa6ddf75b73ebe7b4e5d541f75b67a80f4db092c0e",
+      "bytes": 80596,
+      "mirrorPath": "meshes/FJ1266_BP20094_FMA55683_Left upper lateral incisor tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1266_BP20094_FMA55683_Left%20upper%20lateral%20incisor%20tooth.obj"
+    },
+    {
+      "id": "FJ1267",
+      "file": "FJ1267.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1267_BP23596_FMA55799_Left%20upper%20canine%20tooth.obj",
+      "sha256": "b8f4b9f347c1e4c23eb5e0b278da9926753b631cc47655dc49da6f80074a22a3",
+      "bytes": 81373,
+      "mirrorPath": "meshes/FJ1267_BP23596_FMA55799_Left upper canine tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1267_BP23596_FMA55799_Left%20upper%20canine%20tooth.obj"
+    },
+    {
+      "id": "FJ1268",
+      "file": "FJ1268.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1268_BP20173_FMA55705_Right%20first%20lower%20molar%20tooth.obj",
+      "sha256": "6ab9e1bf1abe2cace3cada408f526617f097bcb0b8280149e609969ff6d4b179",
+      "bytes": 104433,
+      "mirrorPath": "meshes/FJ1268_BP20173_FMA55705_Right first lower molar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1268_BP20173_FMA55705_Right%20first%20lower%20molar%20tooth.obj"
+    },
+    {
+      "id": "FJ1269",
+      "file": "FJ1269.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1269_BP23752_FMA55694_Right%20first%20lower%20premolar%20tooth.obj",
+      "sha256": "c31b59f62832048bf955d3b4f906616a3c5a024b2a1cfeab3d1ee61c376ca319",
+      "bytes": 69417,
+      "mirrorPath": "meshes/FJ1269_BP23752_FMA55694_Right first lower premolar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1269_BP23752_FMA55694_Right%20first%20lower%20premolar%20tooth.obj"
+    },
+    {
+      "id": "FJ1270",
+      "file": "FJ1270.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1270_BP23827_FMA55706_Right%20second%20lower%20molar%20tooth.obj",
+      "sha256": "2a622e4bb5aebf0963abe8c367f0b4552c0bdcd76c50b58e46f2846e1a538ad6",
+      "bytes": 95888,
+      "mirrorPath": "meshes/FJ1270_BP23827_FMA55706_Right second lower molar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1270_BP23827_FMA55706_Right%20second%20lower%20molar%20tooth.obj"
+    },
+    {
+      "id": "FJ1271",
+      "file": "FJ1271.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1271_BP23728_FMA55695_Right%20second%20lower%20premolar%20tooth.obj",
+      "sha256": "8c3cf1c58d16600014f73d61387b8ac07a3677e9059db1bc0e5ff0d42d48df63",
+      "bytes": 66262,
+      "mirrorPath": "meshes/FJ1271_BP23728_FMA55695_Right second lower premolar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1271_BP23728_FMA55695_Right%20second%20lower%20premolar%20tooth.obj"
+    },
+    {
+      "id": "FJ1272",
+      "file": "FJ1272.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1272_BP20165_FMA57142_Right%20lower%20central%20incisor%20tooth.obj",
+      "sha256": "dac0438ac261b50b60bb5f887f7c3327f8170ed6c72c2a47e77ffc18c46f8db5",
+      "bytes": 53982,
+      "mirrorPath": "meshes/FJ1272_BP20165_FMA57142_Right lower central incisor tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1272_BP20165_FMA57142_Right%20lower%20central%20incisor%20tooth.obj"
+    },
+    {
+      "id": "FJ1273",
+      "file": "FJ1273.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1273_BP23835_FMA57140_Right%20lower%20lateral%20incisor%20tooth.obj",
+      "sha256": "304044ab44e68e9159d9b96f9db8fd5ef848cc397fabef3f45738461517d443d",
+      "bytes": 56467,
+      "mirrorPath": "meshes/FJ1273_BP23835_FMA57140_Right lower lateral incisor tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1273_BP23835_FMA57140_Right%20lower%20lateral%20incisor%20tooth.obj"
+    },
+    {
+      "id": "FJ1274",
+      "file": "FJ1274.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1274_BP23629_FMA55686_Right%20lower%20canine%20tooth.obj",
+      "sha256": "5a35f8630bcf3194d2f331f5177b7c2b9e0406a7774818cc10991234441f6b30",
+      "bytes": 69255,
+      "mirrorPath": "meshes/FJ1274_BP23629_FMA55686_Right lower canine tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1274_BP23629_FMA55686_Right%20lower%20canine%20tooth.obj"
+    },
+    {
+      "id": "FJ1275",
+      "file": "FJ1275.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1275_BP19601_FMA55697_Right%20second%20upper%20molar%20tooth.obj",
+      "sha256": "570f96e4522a62f6bae3cd99039772984f1f0555a97cadf91b6d42c861e7ead4",
+      "bytes": 111297,
+      "mirrorPath": "meshes/FJ1275_BP19601_FMA55697_Right second upper molar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1275_BP19601_FMA55697_Right%20second%20upper%20molar%20tooth.obj"
+    },
+    {
+      "id": "FJ1276",
+      "file": "FJ1276.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1276_BP20230_FMA55698_Right%20first%20upper%20molar%20tooth.obj",
+      "sha256": "b12ecfe56b56eb525ca1da4b56b5cc1c606b916b64d6939211b1282955593eb8",
+      "bytes": 129771,
+      "mirrorPath": "meshes/FJ1276_BP20230_FMA55698_Right first upper molar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1276_BP20230_FMA55698_Right%20first%20upper%20molar%20tooth.obj"
+    },
+    {
+      "id": "FJ1277",
+      "file": "FJ1277.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1277_BP23473_FMA55689_Right%20first%20upper%20premolar%20tooth.obj",
+      "sha256": "bc6376db5a376d456646fa8e28453901c3a26336f07357515e16b7820d7c06d3",
+      "bytes": 95516,
+      "mirrorPath": "meshes/FJ1277_BP23473_FMA55689_Right first upper premolar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1277_BP23473_FMA55689_Right%20first%20upper%20premolar%20tooth.obj"
+    },
+    {
+      "id": "FJ1278",
+      "file": "FJ1278.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1278_BP23721_FMA55688_Right%20second%20upper%20premolar%20tooth.obj",
+      "sha256": "a1e366a64dc6d3c5074ff1d19681eff8248dfd5dc61d8f93d0309c56921d9c94",
+      "bytes": 87248,
+      "mirrorPath": "meshes/FJ1278_BP23721_FMA55688_Right second upper premolar tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1278_BP23721_FMA55688_Right%20second%20upper%20premolar%20tooth.obj"
+    },
+    {
+      "id": "FJ1279",
+      "file": "FJ1279.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1279_BP22758_FMA55681_Right%20upper%20central%20incisor%20tooth.obj",
+      "sha256": "861731e2e8d74b9813e7ac119f26500ce1e2dc7fe5841267f02b312115118032",
+      "bytes": 75981,
+      "mirrorPath": "meshes/FJ1279_BP22758_FMA55681_Right upper central incisor tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1279_BP22758_FMA55681_Right%20upper%20central%20incisor%20tooth.obj"
+    },
+    {
+      "id": "FJ1280",
+      "file": "FJ1280.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1280_BP23883_FMA55680_Right%20upper%20lateral%20incisor%20tooth.obj",
+      "sha256": "951c73bb833f9a30a8459a9dff9803147128e161db1ee093cc65cf1b88bc67ff",
+      "bytes": 80638,
+      "mirrorPath": "meshes/FJ1280_BP23883_FMA55680_Right upper lateral incisor tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1280_BP23883_FMA55680_Right%20upper%20lateral%20incisor%20tooth.obj"
+    },
+    {
+      "id": "FJ1281",
+      "file": "FJ1281.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1281_BP23581_FMA55798_Right%20upper%20canine%20tooth.obj",
+      "sha256": "32c4d39304c1750413e6e2b3d6907f6534760fe54351044cdef7e65391ae2596",
+      "bytes": 82111,
+      "mirrorPath": "meshes/FJ1281_BP23581_FMA55798_Right upper canine tooth.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1281_BP23581_FMA55798_Right%20upper%20canine%20tooth.obj"
+    },
+    {
+      "id": "FJ3269",
+      "file": "FJ3269.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3269_BP23755_FMA53650_Left%20maxilla.obj",
+      "sha256": "59b3ee93b5894c800594be3e7860488c65277f1177ae79744816aecb4b5e6da1",
+      "bytes": 384450,
+      "mirrorPath": "meshes/FJ3269_BP23755_FMA53650_Left maxilla.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3269_BP23755_FMA53650_Left%20maxilla.obj"
+    },
+    {
+      "id": "FJ3289",
+      "file": "FJ3289.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3289_BP22817_FMA52748_Mandible.obj",
+      "sha256": "f0250d55be8e912e9465c55a4c966f9f3bed709f503d3069d3cd19479bbcfe2b",
+      "bytes": 354931,
+      "mirrorPath": "meshes/FJ3289_BP22817_FMA52748_Mandible.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3289_BP22817_FMA52748_Mandible.obj"
+    },
+    {
+      "id": "FJ3375",
+      "file": "FJ3375.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3375_BP23661_FMA53649_Right%20maxilla.obj",
+      "sha256": "867e5c366244097506a919ae85d601a15f0b745c4da27433c08bfb21228a233a",
+      "bytes": 388214,
+      "mirrorPath": "meshes/FJ3375_BP23661_FMA53649_Right maxilla.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3375_BP23661_FMA53649_Right%20maxilla.obj"
+    }
+  ]
+}
